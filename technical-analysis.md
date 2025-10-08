@@ -273,7 +273,7 @@ function reviewerDecision(state: ReviewerState): string {
 ```
 ┌─────────────────────────────────────┐
 │         MANAGER GRAPH               │
-│  (Orchestration \& Routing)          │
+│  (Orchestration & Routing)          │
 └─────────────┬───────────────────────┘
               │
     ┌─────────┴──────────┐
@@ -292,7 +292,7 @@ function reviewerDecision(state: ReviewerState): string {
               ▼                        │
 ┌──────────────────────────────────┐   │
 │       PLANNER GRAPH              │   │
-│  (Research \& Planning)           │   │
+│  (Research & Planning)           │   │
 └──────────────────────────────────┘   │
               │                        │
     ┌─────────┴──────────┐             │
@@ -305,10 +305,10 @@ function reviewerDecision(state: ReviewerState): string {
               │                 │      │
       ┌───────┴────────┐        │      │
       │                │        │      │
-┌─────▼─────┐   ┌─────▼─────┐  │      │
-│  Search   │   │   View    │  │      │
-│  Files    │   │   Files   │  │      │
-└─────┬─────┘   └─────┬─────┘  │      │
+┌─────▼─────┐    ┌─────▼─────┐  │      │
+│  Search   │    │   View    │  │      │
+│  Files    │    │   Files   │  │      │
+└─────┬─────┘    └─────┬─────┘  │      │
       │                │        │      │
       └───────┬────────┘        │      │
               │                 │      │
@@ -393,8 +393,8 @@ function reviewerDecision(state: ReviewerState): string {
        ┌──────┴──────┐                 │
        │  All Good?  │                 │
        └──────┬──────┘                 │
-         Yes  │  No                    │
-              │  └────────────────────┘
+         Yes  │   No                   │
+              │   └────────────────────┘
     ┌─────────┴──────────┐
     │     Approve        │
     └─────────┬──────────┘
